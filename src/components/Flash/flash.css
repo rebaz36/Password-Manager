@@ -1,0 +1,28 @@
+.alert {
+  color: white;
+  border-radius: 10px;
+  top: 50px;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.alert-error {
+  background: lightcoral;
+}
+
+.alert-warning {
+  background: rgb(175, 175, 93);
+}
+
+.alert-success {
+  background: lightgreen;
+}
+  
+.close {
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+}
